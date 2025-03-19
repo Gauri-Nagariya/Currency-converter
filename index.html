@@ -33,13 +33,13 @@
         margin-bottom: 5px;
       }
       input {
-        margin: 10px;
+        margin: 5.5px;
         height: 33px;
         color: rgb(156, 151, 151);
         background: rgb(14, 14, 14);
         padding: 10px;
         font-size: 16px;
-        width: 323px;
+        width: 327px;
         border-top-left-radius: 10px;
         border: 1px solid rgb(45, 39, 39);
         border-right: none;
@@ -145,109 +145,29 @@
       <h2>Currency Converter</h2>
       <input type="number" id="amount" placeholder="Enter amount" />
       <select id="fromCurrency">
-        <option value="USD">
-          <!-- <img class="flag" src="https://flagcdn.com/w40/us.png" />  -->
-          United
-          States - US Dollar (USD)
-        </option>
-        <option value="EUR">
-          <!-- <img class="flag" src="https://flagcdn.com/w40/eu.png" />  -->
-          European
-          Union - Euro (EUR)
-        </option>
-        <option value="INR">
-          <!-- <img class="flag" src="https://flagcdn.com/w40/in.png" /> -->
-           India -
-          Indian Rupee (INR)
-        </option>
-        <option value="GBP">
-          <!-- <img class="flag" src="https://flagcdn.com/w40/gb.png" /> -->
-           United
-          Kingdom - British Pound (GBP)
-        </option>
-        <option value="AUD">
-          <!-- <img class="flag" src="https://flagcdn.com/w40/au.png" />  -->
-          Australia -
-          Australian Dollar (AUD)
-        </option>
-        <option value="CAD">
-          <!-- <img class="flag" src="https://flagcdn.com/w40/ca.png" />  -->
-          Canada -
-          Canadian Dollar (CAD)
-        </option>
-        <option value="SGD">
-          <!-- <img class="flag" src="https://flagcdn.com/w40/sg.png" />  -->
-          Singapore -
-          Singapore Dollar (SGD)
-        </option>
-        <option value="JPY">
-          <!-- <img class="flag" src="https://flagcdn.com/w40/jp.png" />  -->
-          Japan -
-          Japanese Yen (JPY)
-        </option>
-        <option value="CNY">
-          <!-- <img class="flag" src="https://flagcdn.com/w40/cn.png" />  -->
-          China -
-          Chinese Yuan (CNY)
-        </option>
-        <option value="CHF">
-          <!-- <img class="flag" src="https://flagcdn.com/w40/ch.png" />  -->
-          Switzerland
-          - Swiss Franc (CHF)
-        </option>
+        <option value="USD">United States - US Dollar ($)</option>
+        <option value="EUR">European Union - Euro (€)</option>
+        <option value="INR">India - Indian Rupee (₹)</option>
+        <option value="GBP">United Kingdom - British Pound (£)</option>
+        <option value="AUD">Australia - Australian Dollar (A$)</option>
+        <option value="CAD">Canada - Canadian Dollar (C$)</option>
+        <option value="SGD">Singapore - Singapore Dollar (S$)</option>
+        <option value="JPY">Japan - Japanese Yen (¥)</option>
+        <option value="CNY">China - Chinese Yuan (CN¥)</option>
+        <option value="CHF">Switzerland - Swiss Franc (CHF)</option>
       </select>
       <h3 id="result"></h3>
       <select id="toCurrency">
-        <option value="USD">
-          <!-- <img class="flag" src="https://flagcdn.com/w40/us.png" />  -->
-          United
-          States - US Dollar (USD)
-        </option>
-        <option value="EUR">
-          <!-- <img class="flag" src="https://flagcdn.com/w40/eu.png" />  -->
-          European
-          Union - Euro (EUR)
-        </option>
-        <option value="INR">
-          <!-- <img class="flag" src="https://flagcdn.com/w40/in.png" />  -->
-          India -
-          Indian Rupee (INR)
-        </option>
-        <option value="GBP">
-          <!-- <img class="flag" src="https://flagcdn.com/w40/gb.png" />  -->
-          United
-          Kingdom - British Pound (GBP)
-        </option>
-        <option value="AUD">
-          <!-- <img class="flag" src="https://flagcdn.com/w40/au.png" />  -->
-          Australia -
-          Australian Dollar (AUD)
-        </option>
-        <option value="CAD">
-          <!-- <img class="flag" src="https://flagcdn.com/w40/ca.png" />  -->
-          Canada -
-          Canadian Dollar (CAD)
-        </option>
-        <option value="SGD">
-          <!-- <img class="flag" src="https://flagcdn.com/w40/sg.png" />  -->
-          Singapore -
-          Singapore Dollar (SGD)
-        </option>
-        <option value="JPY">
-          <!-- <img class="flag" src="https://flagcdn.com/w40/jp.png" />  -->
-          Japan -
-          Japanese Yen (JPY)
-        </option>
-        <option value="CNY">
-          <!-- <img class="flag" src="https://flagcdn.com/w40/cn.png" />  -->
-          China -
-          Chinese Yuan (CNY)
-        </option>
-        <option value="CHF">
-          <!-- <img class="flag" src="https://flagcdn.com/w40/ch.png" />  -->
-          Switzerland
-          - Swiss Franc (CHF)
-        </option>
+        <option value="USD">United States - US Dollar ($)</option>
+        <option value="EUR">European Union - Euro (€)</option>
+        <option value="INR">India - Indian Rupee (₹)</option>
+        <option value="GBP">United Kingdom - British Pound (£)</option>
+        <option value="AUD">Australia - Australian Dollar (A$)</option>
+        <option value="CAD">Canada - Canadian Dollar (C$)</option>
+        <option value="SGD">Singapore - Singapore Dollar (S$)</option>
+        <option value="JPY">Japan - Japanese Yen (¥)</option>
+        <option value="CNY">China - Chinese Yuan (CN¥)</option>
+        <option value="CHF">Switzerland - Swiss Franc (CHF)</option>
       </select>
       <button onclick="convertCurrency()">
         <img src="arr.webp" alt="" />
