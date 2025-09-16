@@ -3,6 +3,7 @@
         <h1>Currency Converter</h1>
         <h2>Project Overview</h2>
         <p>This is a simple and clean web-based currency converter. It allows users to convert a specified amount from one currency to another using up-to-date exchange rates fetched from a public API.</p>
+         <a href="https://currency-converter-sepia-eight.vercel.app/" class="live-link" target="_blank">View Live Demo</a>
         <hr class="section-divider">
         <h2>Technology Stack</h2>
         <p>This project is a classic example of a static website that uses the following technologies:</p>
